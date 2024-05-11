@@ -1,0 +1,46 @@
+@import "sahel-fd";
+
+*, html, body {
+	font-family: Sahel-FD;
+}
+ul.navbar-nav {
+	direction: rtl;
+}
+p {
+	direction: rtl;
+	text-align: justify;
+}
+.border-se {
+	border: 4px solid #dadd86;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.border-al {
+	border: 5px solid #dadd86;
+	padding: 1rem;
+}
+
+.form-container {
+	background-image: url(../images/ilam-blur.jpg);
+	background-size: cover;
+	padding: 2rem;
+	text-align: right;
+}
+
+.bottom-space > div {
+margin-bottom: 1rem;
+}
+
+.bottom-space p{
+	text-align: right;
+	direction: ltr;
+}
+
+.checked {
+  color: orange;
+}
+.product-highlights {
+	direction: rtl;
+	text-align: right;
+}
